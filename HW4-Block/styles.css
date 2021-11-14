@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+main {
+  background: #ed4c5c;
+  color: #ffffff;
+  max-width: 100%;
+  padding: 94px 0px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-text {
+  max-width: 445px;
+  margin-right: 81px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 24px;
+}
+
+.main-text p {
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+.logos {
+  max-width: 134px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section {
+  background: #ffffff;
+  padding: 117px 0px;
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contact {
+  max-width: 445px;
+  margin-right: 114px;
+  color: #000000;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 50px;
+}
+
+.contact p {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+form {
+  max-width: 540px;
+}
+
+input, button {
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+  border: 1px solid #333333;
+  border-radius: 6px;
+  padding: 20px 30px;
+  width: 540px;
+  margin-bottom: 24px;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.width {
+  width: 255px;
+}
+
+button {
+  background: #ed4c5c;
+  border: 1.5px solid #ed4c5c;
+  width: 160px;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+section {
+  align-items: flex-start;
+}
+
+footer {
+    color: #101010;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 85px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: #FAFAFA;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 33px;
+}
+
+footer div {
+    width: 230px;
+    margin-right: 65px;
+}
+
+footer div:last-child {
+    margin-right: 0;
+}
+
+.copy {
+    margin-top: 140px;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.tel {
+    margin-top: 11px;
+    margin-bottom: 20px;
+}
+
+.social {
+    width: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
