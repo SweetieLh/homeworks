@@ -45,6 +45,10 @@ body {
   color:white;
 }
 
+.button:hover {
+  cursor: pointer;
+}
+
  .button-block {
   display: flex;
   align-items: center;
