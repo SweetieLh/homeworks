@@ -52,6 +52,7 @@ body {
  .button-block {
   display: flex;
   align-items: center;
+  
 }
 
 .button-block::before, .button-block::after {
