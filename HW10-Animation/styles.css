@@ -76,17 +76,16 @@
 
 .ball:first-child {
   animation-name: firstball;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 
 .ball:last-child {
   animation-name: lastball;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  box-shadow: 0px 72px 16px -16px rgb(0 0 0 / 40%);
 }
 
 .ball:first-child,
@@ -122,11 +121,23 @@
 }
 
 @keyframes firstball {
-  50% {transform: translate(-50px, -50px);}
-  box-shadow: 0px 112px 24px -18px rgb(0 0 0 / 40%);
+  25% {
+    transform: translate(-50px, -50px);
+    box-shadow: 0px 112px 24px -18px rgb(0 0 0 / 40%);
+  }
+  50% {
+    transform: translate(0px, 0px);
+    box-shadow: 0px 72px 16px -16px rgb(0 0 0 / 40%);
+  }
 }
 
 @keyframes lastball {
-  50% {transform: translate(50px, -50px);}
-  box-shadow: 0px 112px 24px -18px rgb(0 0 0 / 40%);
+  50% {
+    transform: translate(0px, 0px);
+    box-shadow: 0px 72px 16px -16px rgb(0 0 0 / 40%);
+  }
+  75% {
+    transform: translate(50px, -50px);
+    box-shadow: 0px 112px 24px -18px rgb(0 0 0 / 40%);
+  }
 }
