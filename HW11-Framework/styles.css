@@ -1,0 +1,39 @@
+.icons a {
+  margin-right: 22px;
+}
+
+.icons a:last-child {
+  margin-right: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #133768;
+  font-weight: 500;
+}
+
+.posts {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.09em;
+}
+
+.tagged {
+    color: #8F8F8F;
+}
+
+.relative {
+    position: relative;
+}
+
+.upper-line::before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 64px;
+    background: #262626;
+    position: absolute;
+    top: -25px;
+}
+
